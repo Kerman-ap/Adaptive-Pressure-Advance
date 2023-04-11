@@ -30,6 +30,9 @@ else:
 with open(destFile, "w") as of:
     for lIndex in range(len(lines)):
         oline = lines[lIndex]
+        #Skip Comments
+        if ';' in oline:
+            oline = oline.split(';')[0]
         # Parse gcode line
         if oline.startswith('G1') and 'F' in oline:
             speed = float(oline.split('F')[1].split(' ')[0])/60
