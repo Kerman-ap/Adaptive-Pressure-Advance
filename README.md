@@ -6,7 +6,8 @@ Corrects for [this](https://www.reddit.com/r/klippers/comments/o98xes/pressure_a
 - This has a large impact on speed-quality printing, when you are trying to be conservative on outer surfaces and rushing infil, etc
 
 # Usage #
-Add as a post-processing script in superslicer/prusaslicer /n
+Add as a post-processing script in superslicer/prusaslicer
+
 Change settings in the script
 
 # Issues #
