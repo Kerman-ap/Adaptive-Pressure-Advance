@@ -8,7 +8,7 @@ Corrects for [this](https://www.reddit.com/r/klippers/comments/o98xes/pressure_a
 # Usage #
 Add as a post-processing script in superslicer/prusaslicer
 
-Change settings in the script
+Change settings in the script (tuningspeed should be the speed yoou calibrated pressure advance for)
 
 # Issues #
 - Changing pressure advance on the fly seens to do some funky stuff
