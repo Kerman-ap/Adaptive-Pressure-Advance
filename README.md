@@ -1,8 +1,10 @@
 # Adaptive-Pressure-Advance
 Speed dependent pressure advance for Klipper
 
-Maybe have a look at the advanced-features fork first, which corrects for this issue
+Maybe have a look at the advanced-features fork first, which corrects for this issue 
+
 https://github.com/dmbutyugin/klipper/tree/advanced-features
+
 Otherwise, you can do it in gcode with this method
 
 
